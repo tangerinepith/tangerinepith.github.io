@@ -1,0 +1,310 @@
+body{
+	background-image: url(  "../images/4.jpg"),
+		url( "../images/58.png")
+		;
+	background-repeat: no-repeat;
+	background-position:top,bottom;
+}
+.nav{
+            height:40px;
+            background:#333;
+	        position: fixed;
+	        width: 100%;
+	        top:0;
+	        z-index: 999;
+			font-family:"black-ops-one";
+			font-weight: 900;
+			border: 2px solid #DEAFB7;
+        }
+		.nbv{
+			height:40px;
+            background:#333;
+			
+			width: 100%;
+			bottom: 0;
+			text-align: center;
+			color: aliceblue;
+			line-height: 40px;
+		}
+.ncv{
+			height:40px;
+            background:#333;
+			position: fixed;
+			width: 100%;
+			bottom: 0;
+			text-align: center;
+			color: aliceblue;
+			line-height: 40px;
+		}
+
+        *{
+            margin:0;
+            padding:0;
+            text-decoration: none;
+            list-style: none;
+        }
+        .btli{
+            float:left;
+            width:16.6%;
+            line-height:40px;
+            text-align: center;
+        }
+        .navlist a{
+            color: #fff;
+            display:block;
+        }
+        .navlist a:hover{
+            background:#718093;
+        }
+        .droplist{
+            background:#333;
+            box-shadow: 0 1px 2px #333;
+            display: none;
+            border-radius:20px;
+            overflow: hidden;
+			z-index: 999;
+			position: fixed;
+			width:16.6%;
+        }
+        .btli:hover .droplist{
+            display: block;
+            
+        }
+.banner {
+				width: 900px;
+				height: 500px;
+				margin: 40px auto;
+				overflow: hidden;
+			}
+			
+			.banner_set {
+				width: 500%;
+				height: 500px;
+				animation: round 10s linear infinite;
+			}
+			
+			.banner_content {
+				width: 20%;
+				height: 500px;
+				float: left;
+			}
+			
+			.banner_content img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			@keyframes round {
+				0% {
+					margin-left: 0;
+				}
+				
+				12% {
+					margin-left: 0;
+				}
+				
+				25% {
+					margin-left: -100%;
+				}
+				
+				37% {
+					margin-left: -100%;
+				}
+				
+				50% {
+					margin-left: -200%;
+				}
+				
+				62% {
+					margin-left: -200%;
+				}
+				
+				75% {
+					margin-left: -300%;
+				}
+				
+				87% {
+					margin-left: -300%;
+				}
+				
+				100% {
+					margin-left: -400%;
+				}
+			}
+		.img2{
+			max-height: 400px;
+			
+		}
+.grid {
+margin-top: 60px;
+  display: grid;
+  /*  声明了三列，宽度分别为 200px 100px 200px */
+  grid-template-columns:50% 50%;
+  grid-gap: 0px;
+  /*  声明了两行，行高分别为 50px 50px  */
+  grid-template-rows: 360px;
+  padding-top: 0px;
+  
+	background-color: #333;
+
+}
+.grid2 {
+margin-top:0px;
+  display: grid;
+  /*  声明了三列，宽度分别为 200px 100px 200px */
+  grid-template-columns:50% 50%;
+  grid-gap: 0px;
+  /*  声明了两行，行高分别为 50px 50px  */
+  grid-template-rows: 600px;
+  padding-top: 0px;
+  
+	
+
+}
+.grid3 {
+margin-top: 0px;
+  display: grid;
+  /*  声明了三列，宽度分别为 200px 100px 200px */
+  grid-template-columns:50% 50%;
+  grid-gap: 0px;
+  /*  声明了两行，行高分别为 50px 50px  */
+  grid-template-rows: 700px;
+  padding-top: 0px;
+	background-color: #333;
+  
+	
+
+}
+/*翻转动画*/
+  .wutai {
+        width: 1200px;
+        height: 500px;
+        margin: 10px auto;
+	  font-size: 14px;
+	  line-height: 32px;
+	  font-weight: 900;
+        
+    }
+
+    .fu {
+        width: 240px;
+        height: 400px;
+       
+        transition: 0.5s;
+        transform-style: preserve-3d;
+        float: left;
+        position: relative;
+    } 
+    .f1:hover .fu{
+        transform: rotateY(180deg);
+    }
+.f1{
+	    width: 240px;
+        height: 400px;
+        float: left;
+         margin: 30px;
+}
+    .box {
+        /* position: absolute; */
+        width: 240px;
+        height: 400px;
+        position: absolute;
+    }
+
+    .face {
+       
+		border: 1px solid #EAE4E4;
+        backface-visibility: hidden;
+		text-align: center;
+        
+    }
+
+    .hip {
+        border: 1px solid #DEAFB7;
+      
+        text-align: center;
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+		padding-left: 10px;
+		padding-right: 10px;
+	
+    }
+
+#f1:hover#f2{
+	transform: rotateY(180deg);
+}
+/*结束*/
+.list li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*回到顶部小按钮*/
+   #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 2px;
+ background:#FFFFFF;
+}
+
+#myBtn:hover {
+  background-color:#CB8889;
+}
+
+.img3{
+	max-width: 200px;
+}
+.tx a{
+	display:block; 
+}
+.tx a:hover{
+	background-color: antiquewhite;
+}
+.an a{
+	color: #060606;
+	display: block;
+	border-radius: 10px;
+}
+.an a:hover{
+	background-color:#CB8889;
+}
+/*字体
+*/
+.bg{
+		    background: #000; /*设置元素背景颜色*/
+		    width: 1000px; /*设置元素宽度*/
+		    height: 300px; /*设置元素高度*/
+		    margin: 0 auto; /*设置元素外边距*/
+		    padding-top: 100px; /*设置元素上内边距*/
+		}
+		.shine{
+		    
+		    font-family: "Microsoft YaHei";
+		    font-size: 60px;
+		    text-align: center;
+		    background: -webkit-linear-gradient(left, #CB6666,#CB8889) 0 0 no-repeat;/*设置线性渐变*/
+		    -webkit-background-size: 160px;                        /*设置背景大小*/
+		    -webkit-background-clip: text;                            /*背景被裁剪到文字*/
+		    -webkit-text-fill-color: rgba(265, 145, 145, 0.3);        /*设置文字的填充颜色*/
+		    -webkit-animation: shine 3s infinite;                    /*设置动画*/
+		}
+		@-webkit-keyframes shine{   /*创建动画*/
+		    0%{
+		        background-position: 0 0;
+		    }
+		    100%{
+		        background-position: 100% 100%;
+		    }
+		}
+.big {
+    
+    transition: all 0.3s ease-in-out;
+}
+ .big:hover {
+    transform: scale(1.1,1.1);
+}
